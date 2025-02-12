@@ -77,9 +77,3 @@ def print_prime_factors(factor):
         print("")
     else:
         print(factor)
-
-print_prime_factors(10)
-print_prime_factors(2)
-print_prime_factors(24)
-print_prime_factors(2475)
-print_prime_factors(23)
