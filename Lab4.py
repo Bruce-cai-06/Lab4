@@ -54,8 +54,8 @@ def print_prime_factors(factor):
         while factor > 1:
             if factor % prime == 0:
                 if count == 1:
-                    factor = factor / prime
                     print(f"{factor} = {prime}", end="")
+                    factor = factor / prime
                     count += 1
                 else:
                     factor = factor / prime
@@ -77,3 +77,5 @@ def print_prime_factors(factor):
         print("")
     else:
         print(factor)
+
+print_prime_factors(25)
