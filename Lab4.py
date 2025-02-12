@@ -78,4 +78,3 @@ def print_prime_factors(factor):
     else:
         print(factor)
 
-print_prime_factors(25)
